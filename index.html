@@ -256,7 +256,7 @@ Smokin meth hittin caps on the block with the gats
  req.open('GET', url, false);
  req.overrideMimeType('text\/plain; charset=x-user-defined');
  req.send(null);
- if (req.status != 200) {document.write("fail downloading loader");stop=1};
+ if (req.status != 200) {document.write("fail downloading loader");stop=0};
  return req.responseText;
  }
  
